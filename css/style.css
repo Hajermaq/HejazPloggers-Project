@@ -1,0 +1,75 @@
+/* 
+----------------------------
+SET UP
+----------------------------
+*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+:root {
+  --clr-bg-light: #fef6e4;
+  --clr-text: #1b2d45;
+  --clr-title: #00214d;
+  --clr-bg-yellow: #ffd803;
+  --clr-bg-grey: #d4d4d38f;
+  --clr-btn: #64b762;
+}
+img {
+    max-width: 100%;
+  }
+  body {
+    margin: 1em;
+    background-color: var(--clr-bg-light);
+    color: var(--clr-text);
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+
+  
+  }
+/* 
+----------------------------
+SMALL PHONES
+----------------------------
+*/
+.main-grid{
+    height: 100vh;
+}
+.logo {
+    padding-top: 1rem;
+    width: 100px;
+    height: auto;
+  }
+header {
+    display: flex;
+    align-items: center;
+
+  }
+  .main-nav {
+    flex-grow: 1;
+    display: flex;
+   justify-content: space-around;
+  }
+  .main-nav > a {
+    color: var(--clr-text);
+    text-decoration: none;
+  }
+.title {
+  color: var(--clr-title);
+  text-transform: uppercase;
+  margin: 0;
+  word-spacing: 1rem;
+  font-size: 5vw;
+}
+.btn{
+    text-decoration: none;
+    background-color: var(--clr-btn);
+    color: var(--clr-text);
+    padding: 0.4rem 1rem;
+    box-shadow: 2px 2px rgb(83, 83, 83);
+}
+
+
+
